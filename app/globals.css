@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #0f172a;
+  --foreground: #f1f5f9;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Ensure all inputs have proper text color for dark theme */
+input, textarea, select {
+  color: #f1f5f9; /* slate-100 */
+  background-color: #1e293b; /* slate-800 */
+}
+
+input::placeholder, textarea::placeholder {
+  color: #64748b; /* slate-500 */
+}
+
+select option {
+  background-color: #1e293b;
+  color: #f1f5f9;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
