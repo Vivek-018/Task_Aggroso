@@ -2,6 +2,12 @@
 
 A production-ready web application that helps product managers and developers generate comprehensive product specifications using Google's Gemini AI. The tool allows users to describe a feature idea and automatically generates detailed specifications including overview, user stories, engineering tasks, risks, and unknowns.
 
+## 🌐 Live Demo
+
+🔗 **[View Live Application](https://task-aggroso.vercel.app/)**
+
+The application is deployed and ready to use. Try generating your first specification!
+
 ## Features
 
 ### ✅ Implemented Features
@@ -69,7 +75,7 @@ A production-ready web application that helps product managers and developers ge
 ### 1. Clone the repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/Vivek-018/Task_Aggroso.git
 cd Aggroso
 ```
 
@@ -197,6 +203,10 @@ Aggroso/
    - Monitor backend, database, and AI API health
 
 ## Deployment
+
+### Live Application
+
+The application is currently deployed and live at: **[https://task-aggroso.vercel.app/](https://task-aggroso.vercel.app/)**
 
 ### Vercel Deployment
 
